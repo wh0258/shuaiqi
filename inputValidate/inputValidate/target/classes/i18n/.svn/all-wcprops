@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/PMS/!svn/ver/58760/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n
+END
+pmsbaseMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/pmsbaseMessage.properties
+END
+commonMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/PMS/!svn/ver/48880/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/commonMessage.properties
+END
+balMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/54876/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/balMessage.properties
+END
+stoMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/56918/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/stoMessage.properties
+END
+supMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/58614/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/supMessage.properties
+END
+intMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/intMessage.properties
+END
+qualMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/qualMessage.properties
+END
+wfMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/wfMessage.properties
+END
+excMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/excMessage.properties
+END
+reportMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/PMS/!svn/ver/58600/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/reportMessage.properties
+END
+bibMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/58666/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/bibMessage.properties
+END
+expMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/58760/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/expMessage.properties
+END
+bidMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/PMS/!svn/ver/58713/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/bidMessage.properties
+END
+standardMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/PMS/!svn/ver/58845/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/standardMessage.properties
+END
+deliMessage.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/PMS/!svn/ver/48604/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/deliMessage.properties
+END
+bizbase.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/PMS/!svn/ver/58307/PMSSourceCode/branches/pmsapp2.0/src/main/resources/i18n/bizbase.properties
+END

@@ -1,0 +1,17 @@
+pmsbase.query.searchResults=搜索结果
+
+query.supPaymentSearch.header=年费查询
+pmsbase.reportTask.taskName=任务名称
+pmsbase.reportTask.businessName=业务名称
+pmsbase.reportTask.queryId=查询标示
+pmsbase.reportTask.status=状态
+pmsbase.reportTask.createDate=创建时间
+pmsbase.reportTask.filePath=下载路径
+
+pmsbase.reportTask.status.inthequeue=导出排队中
+pmsbase.reportTask.status.dataout=数据导出中
+pmsbase.reportTask.status.candownload=可下载
+pmsbase.reportTask.status.abnormalderived=导出异常
+pmsbase.reportTask.status.downloaded=已下载
+pmsbase.reportTask.status.delete=已删除
+pmsbase.reportTask.status.stop=已终止

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validators>
+
+<header name="出生日期">
+	<validator type="reg">
+		<reg>^\d{4}[\/-]\d{1,2}[\/-]\d{1,2}$</reg>
+	</validator>
+</header>
+
+<header name="专家姓名*">
+	<validator type="reg">
+		<reg>\S+</reg>
+	</validator>
+</header>
+
+<header name="专家性别*">
+	<validator type="reg">
+		<reg>[男女]</reg>
+	</validator>
+</header>
+
+<header name="政治面貌">
+	<validator type="reg">
+		<reg>[0123]</reg>
+	</validator>
+</header>
+
+<header name="身份证*">
+	<validator type="reg">
+		<reg>^(\d{17})(\d|[xX])$</reg>
+	</validator>
+    <validator type="custom">
+		<className>expImporterManager</className>
+		<methodName>verifyIdcardnum</methodName>
+	</validator>
+</header>
+
+<header name="身体状况">
+	<validator type="reg">
+		<reg>[012]</reg>
+	</validator>
+</header>
+
+<header name="是否外部专家*">
+	<validator type="reg">
+		<reg>[01]</reg>
+	</validator>
+</header>
+
+<header name="固定电话*">
+	<validator type="reg">
+		<reg>\d{3}-\d{7,8}|\d{4}-\d{7,8}</reg>
+	</validator>
+</header>
+<header name="专家管理分级*">
+	<validator type="reg">
+		<reg>[01]</reg>
+	</validator>
+</header>
+
+<header name="推荐单位*">
+	<validator type="refer">
+		<className>com.cnpc.pms.bizbase.rbac.orgview.entity.PurStruOrg</className>
+		<filedName>code</filedName>
+	</validator>
+</header>
+
+<header name="推荐单位组织机构代码*">
+</header>
+
+<header name="常住地*">
+	<validator type="refer">
+		<className>com.cnpc.pms.exp.bas.entity.ExpRegion</className>
+		<filedName>code</filedName>
+	</validator>
+</header>
+
+
+
+<header name="主评审专业*">
+    <validator type="refer">
+		<className>com.cnpc.pms.exp.bas.entity.ExpCategory</className>
+		<filedName>code</filedName>
+	</validator>
+</header>
+
+<header name="主评专业从事起始年*">
+	<validator type="reg">
+		<reg>(^19\d{2}$)|(^20[01]{1}\d{1}$)</reg>
+	</validator>
+</header>
+
+<!--验证数量及关联-->
+<header name="辅评审专业">
+    <validator type="custom">
+		<className>expImporterManager</className>
+		<methodName>verifyAssistCategorys</methodName>
+	</validator>
+</header>
+
+<!--验证格式、数量对应。参考verifyWorkTime-->
+<header name="辅评审专业从事起始年">
+	 <validator type="custom">
+		<className>expImporterManager</className>
+		<methodName>verifyAssistCategorysBeginYear</methodName>
+	</validator>
+</header>
+
+<header name="工作单位*">
+	<validator type="custom">
+		<className>expImporterManager</className>
+		<methodName>verifyWorkUnit</methodName>
+	</validator>
+</header>
+<header name="工作单位组织机构代码*">
+</header>
+
+<header name="职称*">
+	<validator type="custom">
+		<className>expImporterManager</className>
+		<methodName>verifyDutyName</methodName>
+	</validator>
+</header>
+
+<header name="职务*">
+	<validator type="reg">
+		<reg>[0123456789]</reg>
+	</validator>
+</header>
+
+<header name="任职状态*">
+	<validator type="reg">
+		<reg>[012]</reg>
+	</validator>
+</header>
+
+<header name="电子邮箱">
+	<validator type="reg">
+		<reg>^([a-z0-9A-Z]+[-|\_.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\.)+[a-zA-Z]{2,}$</reg>
+	</validator>
+</header>
+
+<header name="民族">
+	<validator type="refer">
+		<className>com.cnpc.pms.exp.bas.entity.ExpBaseNation</className>
+		<filedName>name</filedName>
+	</validator>
+</header>
+
+<header name="通讯地址">
+</header>
+<header name="邮编">
+</header>
+<header name="手机号码*">
+</header>
+<header name="传真">
+</header>
+<header name="专业特长*">
+</header>
+<header name="参加工作时间">
+</header>
+<header name="序号">
+</header>
+</validators>

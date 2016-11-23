@@ -1,0 +1,598 @@
+#####如果添加国际化,请表明注释###
+
+report.purstock.ALLUNIMPORT=国产
+report.purstock.ALLIMPORT=进口
+
+#主要物资
+report.purstock.INVENTORY_BEGIN= 期初库存金额
+report.purstock.INVENTORY_BEGINPER=期初库存占总期末库存%
+report.purstock.INVENTORY_THIS_TOTAL=本期收入金额
+report.purstock.INVENTORY_THIS_TOTALPER=本期收入占总采购额%
+report.purstock.INVENTORY_THIS_OUT=本期发出金额
+report.purstock.INVENTORY_THIS_OUTPER=本期发出占总发出额%
+report.purstock.INVENTORY_END=期末库存金额
+report.purstock.INVENTORY_ENDPER=期末库存占总期末库存%
+report.purstock.INVENTORY_BEGIN_PUR=占总期初库存比例%
+report.purstock.INVENTORY_THIS_IN_PUR=占总采购额比例%
+report.purstock.INVENTORY_THIS_OUT_PUR=占总发出金额比例%
+report.purstock.INVENTORY_END_PUR=占总期末库存比例%
+
+
+
+#主要物资
+report.purstock.INVENTORY_BEGIN_NUMBER = 期初库存数量
+report.purstock.INVENTORY_BEGIN = 期初库存金额s
+report.purstock.INVENTORY_THIS_IN_NUMBER = 收入情况数量
+report.purstock.INVENTORY_THIS_IN = 收入情况金额
+report.purstock.INVENTORY_THIS_OUT_NUMBER = 发出情况数量
+report.purstock.INVENTORY_THIS_OUT = 发出情况金额
+report.purstock.INVENTORY_END_NUMBER = 期末库存数量
+report.purstock.INVENTORY_END = 期末库存金额
+
+#60大类
+report.purstock.SUM_INVENTORY_OUTS=发出金额
+
+report.purstock.INVENTORY_OUT=发出金额
+report.purstock.CURRENT_INVENTORY_OUT=当年总发出金额
+report.purstock.inventory_out=发出金额
+report.purstock.inventory_end=库存金额
+report.purstock.inventory_endpur=占总库存金额比例
+report.purstock.inventory_avg=平均库存金额
+report.purstock.inventory_avgpur=占总平均库存金额比例
+report.purstock.ALLUNIMPORT=国产金额
+report.purstock.ALLIMPORT=进口金额
+report.purstock.ALLNUM=收入合计
+
+report.stock.INVENTORY_END=库存金额
+report.stock.INVENTORY_ENDPUR=占总库存金额比例
+report.stock.INVENTORY_AVG=平均库存金额
+report.stock.INVENTORY_AVGPUR=占总平均库存金额比例
+
+report.purstock.INVENTORY_END_MONTH=库存金额
+report.purstock.INVENTORY_END_YEAR=当年总库存金额
+report.purstock.INVENTORY_ENDPUR=占当年总库存金额比例
+report.purstock.INVENTORY_AVG_MONTH=平均库存金额
+report.purstock.INVENTORY_AVG_YEAR=当年总平均库存金额
+report.purstock.INVENTORY_AVGPUR=占当年总平均库存金额比例
+#60大类收、发、存情况-按类别统计
+report.item_types.INVENTORY_BEGIN=60大类物资期初库存情况
+report.item_types.INVENTORY_THIS_TOTAL=60大类物资收入情况
+report.item_types.INVENTORY_THIS_OUT=60大类物资发出情况
+report.item_types.INVENTORY_END=60大类物资期末库存情况
+#60大类收、发、存情况-按历年统计
+report.item_years.INVENTORY_BEGIN=期初库存
+report.item_years.INVENTORY_THIS_TOTAL=本期收入
+report.item_years.INVENTORY_THIS_OUT=本期发出
+report.item_years.INVENTORY_END=期末库存
+
+#集中采购
+db.cprocure.total=采购总额
+db.cprocure.cnpc_centra_cash=集团公司总部集中采购额
+db.cprocure.sub_centra_subtotal_cash=所属企业集中采购额
+db.cprocure.sub_centra_bid_cash=所属企业招标采购额
+db.cprocure.sub_centra_other_cash=所属企业其它采购额
+db.cprocure.sub_lower_cash=所属企业下放采购额
+db.cprocure.twostep_centra_cash=两级集中采购额
+db.cprocure.bidding_cash=招投标采购额
+db.cprocure.cnpc_centra_totalper=集团公司总部集中采购度
+db.cprocure.sub_centra_subtotal_totalper=所属企业集中采购度
+db.cprocure.sub_centra_bid_totalper=所属企业招标采购度
+db.cprocure.twostep_centra_totalper=两级集中采购度
+db.cprocure.bidding_complete_pre=招投标采购完成率
+
+#db.cprocure.cnpc_centra_cash=集团公司总部集中采购
+#db.cprocure.sub_centra_bid_cash=所属企业集中采购(招标采购)
+#db.cprocure.sub_centra_other_cash=所属企业集中采购(其他采购)
+#db.cprocure.sub_lower_cash=所属企业下放采购
+
+#进口机电
+db.mprocure.sumamount=金额
+db.mprocure.sumcontract=合同数
+
+
+
+#报表类型
+report.type.staff=人员基本情况统计表
+report.type.resource=仓储及装卸资源统计表
+report.type.itemandcprocure=企业60大类物资收入、发出及库存情况统计表
+report.type.item=企业60大类物资收入发出及库存情况统计表
+report.type.sup=供应商交易情况统计表
+report.type.main=企业一级物资收发库存统计表
+report.type.machine=进口机电产品采购统计表
+report.type.manage=物资采购管理绩效考核表
+report.type.cprocure=集中采购入库情况统计表
+report.type.purStock=企业一级物资收入发出及库存情况统计表
+report.type.trade=供应商交货情况统计表
+report.type.itemmaterialscodeorder=企业60大类物资订单情况统计表
+report.type.centralpurchaseOrder=集中采购订单情况统计表
+report.type.batchupload=批量导入模板
+report.type.inventory=库存物资情况统计表
+report.type.levelStock=可供外调一级物资情况统计表
+report.type.levelMaterialsOrder=一级物资订单情况统计表
+report.type.monthlyinventory=各月月末物资库存情况统计表
+report.type.
+#报表状态
+report.status.default=新建
+report.status.modify=编辑中
+report.status.approve_waiting=待审批
+report.status.approve_passed=审批通过
+report.status.approve_rejected=审批退回
+report.status.submited=已上报
+report.status.submit_rejected=上报回退
+report.status.archived=已归档
+
+#人员基本信息统计查询列表
+db.staff.id=序号
+db.staff.header=人员基本情况统计表
+db.staff.orgname=单位
+db.staff.allNum=在职总人数
+db.staff.busi_type_materials=物资管理人员
+db.staff.busi_type_purchase=采购业务人员
+db.staff.busi_type_store=仓储人员
+db.staff.busi_type_other=其他人员
+db.staff.edu_type_graduate=研究生及以上
+db.staff.edu_type_undergraduate=本科
+db.staff.edu_type_specialist=专科
+db.staff.edu_type_secondary=中专及以下
+db.staff.title_type_high=高级
+db.staff.title_type_middle=中级
+db.staff.title_type_junior=初级
+
+#进口机电产品采购情况统计分析查询列表
+db.mprocure.orgname=单位名称
+db.mprocure.sumcontract=合同数
+db.mprocure.sumamount=金额
+db.mprocure.amountper=占总采购金额比例
+
+#报表代码维护
+query.reptype.header=报表代码查询
+db.reptype.dictcode=报表类别编码
+db.reptype.dicttext=报表类别名称
+db.reptype.reportName=报表名称
+db.reptype.tableMakingInfo=制表说明
+
+#报表模板维护
+db.reptype.fileid=报表模板ID
+db.reptype.filename=报表模板名称
+
+#报表代码维护
+query.repcycle.header=报表周期维护
+
+#仓储计量单位代码维护
+query.measunit.header=仓储计量单位代码查询
+db.measunit.dictcode=仓储资源计量单位编码
+db.measunit.dicttext=仓储资源计量单位名称
+
+#仓储资源类别代码维护
+query.restype.header=仓储资源类别代码查询
+db.restype.dictcode=仓储资源类别编码
+db.restype.dicttext=仓储资源类别名称
+
+#仓储及装卸资源统计计量单位
+rep.measureunit.squaremeter=m2
+rep.measureunit.stere=m3
+rep.measureunit.kilometer=km
+rep.measureunit.ton=t
+rep.measureunit.dong=栋
+rep.measureunit.ge=个
+rep.measureunit.zuo=座
+rep.measureunit.tiao=条
+rep.measureunit.tai=台
+
+#仓储及装卸资源统计资源类别
+rep.resourcetype.cangchu=仓储资源
+rep.resourcetype.mianji=仓储面积
+rep.resourcetype.kufang=库房
+rep.resourcetype.liaopeng=料棚
+rep.resourcetype.liaotai=料台
+rep.resourcetype.liaochang=料场
+rep.resourcetype.youku=油库
+rep.resourcetype.chuguan=储罐
+rep.resourcetype.zhuangxie=装卸资源
+rep.resourcetype.matou=码头
+rep.resourcetype.tieluxian=铁路专用线
+rep.resourcetype.shebei=装卸设备
+rep.resourcetype.tuoche=拖车
+rep.resourcetype.qizhong=起重设备
+rep.resourcetype.shusongji=输送机
+rep.resourcetype.chache=叉车
+rep.resourcetype.qianyinche=牵引车
+rep.resourcetype.others=其它装卸设备
+
+#仓储及装卸资源统计查询列表
+db.resource.id=序号
+db.resource.header=仓储及装卸资源情况统计表
+db.resource.orgname=单位
+db.resource.resource_type=资源类别
+db.resource.measure_unit=计量单位
+db.resource.total=合计
+db.resource.number_of_org=地区公司物资供应部门
+db.resource.number_of_suborg=地区公司所属物资供应部门
+
+#总体情况统计分析（一）
+db.general.STAFFAMOUNT=人员（人）
+db.general.INVENTORYBEGINNOW=期初库存
+db.general.PURCHASEAMOUNTNOW=本期收入
+db.general.INVENTORYTHISOUTNOW=本期发出
+db.general.INVENTORYENDNOW=期末库存
+
+#总体情况统计分析（二）
+db.general.AVGDEPT=部门内人均完成采购金额
+db.general.AVGPURCHASE=采购业务人员人均完成采购金额
+db.general.AVGRESOURCE=仓储人员人均管理库存额
+
+#权限
+rep.illegal.privilege=非法操作：无此操作权限
+
+#报表状态错误信息
+rep.illegal.state=非法操作：报表当前状态无法进行此项操作
+
+rep.illegal.existdata=已存在报表数据，无法更改配置
+
+#变更申请
+rep.illegal.authorization.request.notAllowDoSubmit=非法操作：不允许上报
+rep.illegal.authorization.request.notAllowReply=非法操作：当前状态不是上报状态
+rep.illegal.authorization.request.rejected=未获得授权：请提出变更申请
+report.request.submited=已上报
+report.request.passed=上报通过
+report.request.rejected=上报回退
+
+# 页面提示信息
+ui.upload.ok=上传成功
+ui.upload.selectfilepath=请选择上传文件的路径！
+ui.upload.sizeoverflow=对不起！您上传的文件过大！
+ui.upload.filetypeerr=对不起！不支持该类型文件！
+
+
+# 供应商交易
+query.supdelivery.header=供应商交易
+db.column.id=序号
+db.reportsupdelivery.supplierCode=ERP供应商代码
+db.reportsupdelivery.supplierName=供应商名称
+db.reportsupdelivery.isInnerSupplier=是否集团公司内部供应商
+db.reportsupdelivery.materialsCode=物资大类
+db.reportsupdelivery.allNum=合同标的额合计（万元）
+db.reportsupdelivery.contractMoney=合同标的额小计（万元）
+db.reportsupdelivery.contractMoneyPer=占总合同标的额比例（%）
+db.reportsupdelivery.noContractMoney=合同标的额小计（万元）
+db.reportsupdelivery.noContractMoneyPer=占总合同标的额比例（%）
+db.reportsupdelivery.state=备注
+
+#可供外调一级物资
+query.levelstockInfo.header=可供外调一级物资
+db.column.id=序号
+db.levelstockInfo.orgName=单位
+db.levelstockInfo.materials_code=大类号
+db.levelstockInfo.materials_name=物资大类名称
+db.levelstockInfo.uom=计量单位
+db.levelstockInfo.M_count=数量
+db.levelstockInfo.M_price=单价(元)
+db.levelstockInfo.manufacturer=制造商
+db.levelstockInfo.Purchase_date=进货日期
+db.levelstockInfo.Storage_site=存放地点
+db.levelstockInfo.note=备注
+
+#人员情况
+query.staffinfodata.header = 人员情况统计
+db.staffinfodata.orgname = 单位
+db.staffinfodata.allnum = 在职总人数
+db.staffinfodata.busi_type_materials = 物资管理人员
+db.staffinfodata.busi_type_purchase = 采购业务人员
+db.staffinfodata.busi_type_store = 仓储人员
+db.staffinfodata.busi_type_other = 其他人员
+db.staffinfodata.edu_type_graduate = 研究生及以上
+db.staffinfodata.edu_type_undergraduate = 本科
+db.staffinfodata.edu_type_specialist = 专科
+db.staffinfodata.edu_type_secondary = 中专及以下
+db.staffinfodata.title_type_high = 高级
+db.staffinfodata.title_type_middle = 中级
+db.staffinfodata.title_type_junior = 初级
+
+
+#一级物资
+query.levelMaterialsOrderInfo.header = 一级物资订单情况
+db.levelMaterialsOrderInfo.materials_code = 物资代码
+db.levelMaterialsOrderInfo.materials_name = 物资名称
+db.levelMaterialsOrderInfo.uom = 计量单位
+db.levelMaterialsOrderInfo.order_count = 采购数量
+db.levelMaterialsOrderInfo.order_amount = 采购金额
+db.levelMaterialsOrderInfo.order_count_subtotal = 采购数量合计
+db.levelMaterialsOrderInfo.order_amount_subtotal = 采购金额合计
+
+#文字分析资料上传情况
+query.infoupload.header=文字分析资料上传情况
+db.infoupload.uploaduser=上报人ID
+db.infoupload.uploadusername=上报人
+db.infoupload.uploaduserphone=联系方式
+db.infoupload.uploadorgname=公司
+db.infoupload.year=年份
+db.infoupload.month=月份
+db.infoupload.uploaddate=上报时间
+db.infoupload.fileid=文件ID
+db.infoupload.orgcode=组织机构
+db.infoupload.theyear=年
+db.infoupload.themonth=月
+
+#库存物资情况
+query.inventory.header = 库存物资情况
+db.inventory.materialsCode = 大类号
+db.inventory.materialsName = 物资大类名称
+db.inventory.inventoryTotal = 合计
+db.inventory.inventoryUnderthree = 0~3年库存金额
+db.inventory.inventoryUnderfive = 3~5年库存金额(含3年)
+db.inventory.inventoryUndereight = 5~8年库存金额(含5年)
+db.inventory.inventoryeight = 8年以上库存金额(含8年)
+
+#所有报表的保存变更、编辑按钮
+report.globle.save.button=保存变更
+report.globle.edit.button=编辑
+
+#待办事项
+query.reporttodo.header=报表管理待办事项
+db.reporttodo.reportcode=报表编码
+db.reporttodo.reportname=报表名称
+db.reporttodo.year=年
+db.reporttodo.month=月
+db.reporttodo.submitDate=上报日期
+db.reporttodo.deadLine=上报截止日期
+db.reporttodo.status=状态
+
+#考核方案指标
+query.performancekpi.header=指标信息
+db.performancekpi.id=指标编号
+db.performancekpi.targetname=指标名称
+db.performancekpi.statusname=指标状态
+db.performancekpi.magfunctionname=管理职能名称
+db.performancekpi.execlassname=执行层级名称
+db.performancekpi.buslinkname=业务环节
+db.performancekpi.kpitypename=指标分类
+
+#考核方案头信息
+query.performancekpi.header=指标信息
+db.performanceplan.id=指标编号
+db.performanceplan.plancode=考核方案编号
+db.performanceplan.planname=考核方案名称
+db.performanceplan.statusname=状态
+db.performanceplan.plantext=考核方案文本
+db.performanceplan.target=考核方案指标
+
+performanceKpiOrgPlan.header=考核方案指标和单位关系
+db.performanceKpiOrgPlan.id=ID
+db.performanceKpiOrgPlan.checkorgname=被考核单位名称
+db.performanceKpiOrgPlan.orgname=考核单位名称
+db.performanceKpiOrgPlan.targetname=指标名称
+db.performanceKpiOrgPlan.buslinkname=业务环节名称
+db.performanceKpiOrgPlan.magfunctionname=管理职能名称
+db.performanceKpiOrgPlan.execlassname=执行层级名称
+db.performanceKpiOrgPlan.kpitypename=指标分类名称
+db.performanceKpiOrgPlan.targetvalue=指标值
+db.performanceKpiOrgPlan.measureUnit=计量单位
+db.performancekpiorgplan.checkperiod=考核期间
+db.performanceKpiOrgPlan.remark=备注
+db.performanceKpiOrgPlan.kpitypeid=指标分类ID
+db.performanceKpiOrgPlan.kpiid=指标ID
+db.performanceKpiOrgPlan.orgid=单位ID
+
+#绩效考核方案查询
+query.performancePlan.header=绩效考核方案查询
+kpi.performancePlan.id=ID
+kpi.performancePlan.checkorgcode=被考核单位编码
+kpi.performancePlan.checkorgname=被考核单位
+kpi.performancePlan.orgname=考核单位
+kpi.performancePlan.targetname=指标名称
+kpi.performancePlan.checkperiod=考核期间
+kpi.performancePlan.targetvalue=指标值
+kpi.performancePlan.remark=备注
+kpi.performancePlan.orgcode=被考核单位编码
+kpi.performancePlan.kpiid=指标编码
+kpi.performancePlan.year=考核年度
+
+#动态查询
+query.performanceSum.header = 动态查询
+db.performanceSum.id = ID
+db.performanceSum.checkorgname = 查询单位
+db.performanceSum.targetname = 指标名称
+db.performanceSum.measureunit = 计量单位
+db.performanceSum.targetvalue = 目标值
+db.performanceSum.actuvalvalue = 实际值
+db.performanceSum.contrast = 与目标对比值
+db.performanceSum.yearcontrast = 同比
+db.performanceSum.momcontrast = 环比
+db.performanceSum.statusvalue = 完成状态
+
+#指标完成情况查询
+query.performanceSumKpiComplete.header = 指标完成情况查询
+db.performanceSumKpiComplete.id = ID
+db.performanceSumKpiComplete.checkorgname = 被考核单位
+db.performanceSumKpiComplete.targetname = 指标名称
+db.performanceSumKpiComplete.measureunit = 计量单位
+db.performanceSumKpiComplete.targetvalue = 目标值
+db.performanceSumKpiComplete.actuvalvalue = 实际值
+db.performanceSumKpiComplete.contrast = 与目标对比值
+db.performanceSumKpiComplete.yearcontrast = 同比
+db.performanceSumKpiComplete.statusvalue = 完成状态
+
+#指标说明申报
+query.performanceSumKpiDeclate.header = 指标说明申报查询
+db.performanceSumKpiDeclate.id = ID
+db.performanceSumKpiDeclate.targetname = 指标名称
+db.performanceSumKpiDeclate.measureunit = 计量单位
+db.performanceSumKpiDeclate.targetvalue = 目标值
+db.performanceSumKpiDeclate.actuvalvalue = 实际值
+db.performanceSumKpiDeclate.statusvalue = 完成状态
+db.performanceSumKpiDeclate.declatereason = 申报原因
+
+#原因查询
+query.performanceSumReason.header = 原因查询
+db.performanceSumReason.id = ID
+db.performanceSumReason.checkorgname = 被考核单位
+db.performanceSumReason.targetname = 指标名称
+db.performanceSumReason.measureunit = 计量单位
+db.performanceSumReason.targetvalue = 目标值
+db.performanceSumReason.actuvalvalue = 实际值
+db.performanceSumReason.statusvalue = 完成状态
+db.performanceSumReason.declatereason = 申报原因
+db.performanceSumReason.reason = 审核结果
+
+#考核结果确认
+query.performanceSumCheck.header = 考核结果确认查询
+db.performanceSumCheck.id = ID
+db.performanceSumCheck.checkorgname = 被考核单位
+db.performanceSumCheck.targetname = 指标名称
+db.performanceSumCheck.measureunit = 计量单位
+db.performanceSumCheck.targetvalue = 目标值
+db.performanceSumCheck.actuvalvalue = 实际值
+db.performanceSumCheck.statusvalue = 完成状态
+db.performanceSumCheck.declatereason = 申报原因
+
+#报告期结果分析
+query.performanceSumReport.header = 报告期结果分析查询
+db.performanceSumReport.id = ID
+db.performanceSumReport.checkorgname = 被考核单位
+db.performanceSumReport.targetname = 指标名称
+db.performanceSumReport.measureunit = 计量单位
+db.performanceSumReport.targetvalue = 目标值
+db.performanceSumReport.actuvalvalue = 实际值
+db.performanceSumReport.contrast = 与目标对比值
+db.performanceSumReport.yearcontrast = 同比
+db.performanceSumReport.statusvalue = 完成状态
+
+#指标申请查询
+query.performancekpiapply.header = 指标申请查询
+db.performancekpiapply.id = ID
+db.performancekpiapply.targetname = 指标名称
+db.performancekpiapply.createusername = 申请人
+db.performancekpiapply.createdate = 填报日期
+db.performancekpiapply.approvalusername = 审批人
+db.performancekpiapply.approvaltime = 审批日期
+db.performancekpiapply.checkusername = 审核人
+db.performancekpiapply.checktime = 审核日期
+db.performancekpiapply.status = 状态
+
+
+query.performanceWarningReport.header=指标预警查询
+db.performanceFormulaContent.id=id
+db.performanceSumReport.orgcode=考核单位编码
+db.performanceSumReport.orgname=考核单位
+db.performanceSumReport.checkorgcode=被考核单位编码
+db.performanceSumReport.checkorgname=被考核单位
+db.performanceSumReport.zbjzcgd=总部集中采购度
+db.performanceSumReport.lnwdtwz=两年无动态物资
+db.performanceSumReport.wzxqjhtbzql=物资需求计划提报准确率
+db.performanceSumReport.rjcgje=人均采购金额
+db.performanceSumReport.pjkcjdl=平均库存降低率
+db.performanceSumReport.qmkcjdl=期末库存降低率
+db.performanceSumReport.wzljjzcgd=物资两级集中采购度
+db.performanceSumReport.kczzcs=库存周转次数
+db.performanceSumReport.rkwzjyl=入库物资检验率
+db.performanceSumReport.yjwzwscgl=一级物资网上采购率
+reqper.search.button=查询
+
+#绩效考核实际值动态列
+db.performanceWarningDynamicReport.actuvalvalue1=物资需求计划提报准确率
+db.performanceWarningDynamicReport.actuvalvalue2=需求计划执行准确率
+db.performanceWarningDynamicReport.actuvalvalue3=物资采购计划提报准确率
+db.performanceWarningDynamicReport.actuvalvalue4=补充计划提报率
+db.performanceWarningDynamicReport.actuvalvalue5=一级采购物资带量采购计划准确率
+db.performanceWarningDynamicReport.actuvalvalue6=一级采购物资定商定价预测计划准确率
+db.performanceWarningDynamicReport.actuvalvalue7=集中储备物资预测计划准确率
+db.performanceWarningDynamicReport.actuvalvalue8=积压物资利用率
+db.performanceWarningDynamicReport.actuvalvalue9=物资采购计划执行准确率
+db.performanceWarningDynamicReport.actuvalvalue10=物资两级集中采购度
+db.performanceWarningDynamicReport.actuvalvalue11=总部集中采购度
+db.performanceWarningDynamicReport.actuvalvalue12=所属企业集中采购度
+db.performanceWarningDynamicReport.actuvalvalue13=供应商利用率
+db.performanceWarningDynamicReport.actuvalvalue14=战略供应商率
+db.performanceWarningDynamicReport.actuvalvalue15=战略采购率
+db.performanceWarningDynamicReport.actuvalvalue16=采购金额占80%的供应商率
+db.performanceWarningDynamicReport.actuvalvalue17=前20位供应商供货率
+db.performanceWarningDynamicReport.actuvalvalue18=物资采购资金节约率
+db.performanceWarningDynamicReport.actuvalvalue19=一级集中采购的资金节约率
+db.performanceWarningDynamicReport.actuvalvalue20=人均采购金额
+db.performanceWarningDynamicReport.actuvalvalue21=公开招标采购率
+db.performanceWarningDynamicReport.actuvalvalue22=目录式采购率
+db.performanceWarningDynamicReport.actuvalvalue23=内部优势产品供货率
+db.performanceWarningDynamicReport.actuvalvalue24=代储代销采购率
+db.performanceWarningDynamicReport.actuvalvalue25=带量物资采购率
+db.performanceWarningDynamicReport.actuvalvalue26=定商定价物资采购率
+db.performanceWarningDynamicReport.actuvalvalue27=物资采购招标率(按金额)
+db.performanceWarningDynamicReport.actuvalvalue28=物资采购招标率(按订单)
+db.performanceWarningDynamicReport.actuvalvalue29=进口物资国际公开招标采购率
+db.performanceWarningDynamicReport.actuvalvalue30=进口集中采购率
+db.performanceWarningDynamicReport.actuvalvalue31=集中储备物资使用率
+db.performanceWarningDynamicReport.actuvalvalue32=网上采购率
+db.performanceWarningDynamicReport.actuvalvalue33=一级物资网上采购率
+db.performanceWarningDynamicReport.actuvalvalue34=一次入库检验合格率
+db.performanceWarningDynamicReport.actuvalvalue35=入库物资检验率
+db.performanceWarningDynamicReport.actuvalvalue36=合同履约率
+db.performanceWarningDynamicReport.actuvalvalue37=平均库存降低率
+db.performanceWarningDynamicReport.actuvalvalue38=期末库存降低率
+db.performanceWarningDynamicReport.actuvalvalue39=库存周转次数
+db.performanceWarningDynamicReport.actuvalvalue40=库存结构合理率
+db.performanceWarningDynamicReport.actuvalvalue41=集中储备率
+db.performanceWarningDynamicReport.actuvalvalue42=物资平均在库时间
+db.performanceWarningDynamicReport.actuvalvalue43=盘盈盘亏率 
+db.performanceWarningDynamicReport.actuvalvalue44=库存损耗率
+db.performanceWarningDynamicReport.actuvalvalue45=两年无动态物资
+db.performanceWarningDynamicReport.actuvalvalue46=三年无动态物资
+db.performanceWarningDynamicReport.actuvalvalue47=五年无动态物资
+db.performanceWarningDynamicReport.actuvalvalue48=集中储备配送周期
+db.performanceWarningDynamicReport.actuvalvalue49=集中储备配送率
+db.performanceWarningDynamicReport.actuvalvalue50=付款及时率
+db.performanceWarningDynamicReport.actuvalvalue51=谈价议价采购率
+db.performanceWarningDynamicReport.actuvalvalue52=反向拍卖采购率
+db.performanceWarningDynamicReport.actuvalvalue53=临时供应商供货率
+#绩效考核目标值
+db.performanceWarningDynamicReport.target1=物资需求计划提报准确率
+db.performanceWarningDynamicReport.target2=需求计划执行准确率
+db.performanceWarningDynamicReport.target3=物资采购计划提报准确率
+db.performanceWarningDynamicReport.target4=补充计划提报率
+db.performanceWarningDynamicReport.target5=一级采购物资带量采购计划准确率
+db.performanceWarningDynamicReport.target6=一级采购物资定商定价预测计划准确率
+db.performanceWarningDynamicReport.target7=集中储备物资预测计划准确率
+db.performanceWarningDynamicReport.target8=积压物资利用率
+db.performanceWarningDynamicReport.target9=物资采购计划执行准确率
+db.performanceWarningDynamicReport.target10=物资两级集中采购度
+db.performanceWarningDynamicReport.target11=总部集中采购度
+db.performanceWarningDynamicReport.target12=所属企业集中采购度
+db.performanceWarningDynamicReport.target13=供应商利用率
+db.performanceWarningDynamicReport.target14=战略供应商率
+db.performanceWarningDynamicReport.target15=战略采购率
+db.performanceWarningDynamicReport.target16=采购金额占80%的供应商率
+db.performanceWarningDynamicReport.target17=前20位供应商供货率
+db.performanceWarningDynamicReport.target18=物资采购资金节约率
+db.performanceWarningDynamicReport.target19=一级集中采购的资金节约率
+db.performanceWarningDynamicReport.target20=人均采购金额
+db.performanceWarningDynamicReport.target21=公开招标采购率
+db.performanceWarningDynamicReport.target22=目录式采购率
+db.performanceWarningDynamicReport.target23=内部优势产品供货率
+db.performanceWarningDynamicReport.target24=代储代销采购率
+db.performanceWarningDynamicReport.target25=带量物资采购率
+db.performanceWarningDynamicReport.target26=定商定价物资采购率
+db.performanceWarningDynamicReport.target27=物资采购招标率(按金额)
+db.performanceWarningDynamicReport.target28=物资采购招标率(按订单)
+db.performanceWarningDynamicReport.target29=进口物资国际公开招标采购率
+db.performanceWarningDynamicReport.target30=进口集中采购率
+db.performanceWarningDynamicReport.target31=集中储备物资使用率
+db.performanceWarningDynamicReport.target32=网上采购率
+db.performanceWarningDynamicReport.target33=一级物资网上采购率
+db.performanceWarningDynamicReport.target34=一次入库检验合格率
+db.performanceWarningDynamicReport.target35=入库物资检验率
+db.performanceWarningDynamicReport.target36=合同履约率
+db.performanceWarningDynamicReport.target37=平均库存降低率
+db.performanceWarningDynamicReport.target38=期末库存降低率
+db.performanceWarningDynamicReport.target39=库存周转次数
+db.performanceWarningDynamicReport.target40=库存结构合理率
+db.performanceWarningDynamicReport.target41=集中储备率
+db.performanceWarningDynamicReport.target42=物资平均在库时间
+db.performanceWarningDynamicReport.target43=盘盈盘亏率 
+db.performanceWarningDynamicReport.target44=库存损耗率
+db.performanceWarningDynamicReport.target45=两年无动态物资
+db.performanceWarningDynamicReport.target46=三年无动态物资
+db.performanceWarningDynamicReport.target47=五年无动态物资
+db.performanceWarningDynamicReport.target48=集中储备配送周期
+db.performanceWarningDynamicReport.target49=集中储备配送率
+db.performanceWarningDynamicReport.target50=付款及时率
+db.performanceWarningDynamicReport.target51=谈价议价采购率
+db.performanceWarningDynamicReport.target52=反向拍卖采购率
+db.performanceWarningDynamicReport.target53=临时供应商供货率

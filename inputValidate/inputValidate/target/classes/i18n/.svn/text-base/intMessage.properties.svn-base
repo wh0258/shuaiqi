@@ -1,0 +1,17 @@
+#异常监控集成框架
+query.errorsOfResend.header=错误信息
+query.errorsOfResend.businessType=业务类型
+query.errorsOfResend.businessName=业务名称
+query.errorsOfResend.fileId=文件主键
+query.errorsOfResend.originFileName=原始文件名
+query.errorsOfResend.clientCode=板块编码
+query.errorsOfResend.clientName=板块名称
+query.errorsOfResend.regionCode=地区公司编码
+query.errorsOfResend.regionName=地区公司名称
+query.errorsOfResend.errCode=错误代码
+query.errorsOfResend.errMsg=错误消息
+query.errorsOfResend.status=状态
+query.errorsOfResend.filePath=文件路径
+query.errorsOfResend.message=报文
+exc.status.0=未处理
+exc.status.1=已处理

@@ -1,0 +1,643 @@
+﻿message.username=Username:
+#操作提示信息
+#专家登记
+system.info=系统信息
+system.run.error=系统运行出错！
+system.expIdCardNumIsRequired.info=请输入专家身份证号！
+system.idCareNumIsExists.info=该身份证号的专家信息已经存在！
+system.expertInfoIsUsed.info=该身份证号的专家信息已经生效！
+system.expIdCardNumIsNotNull.info=专家身份证号不能为空！
+system.region.info=该字段不能为空！
+system.procurementType.info=项目类别至少选择一项！
+system.sort.info=专家类别至少选择一项
+system.select.info=-----请选择-----
+system.searchExpByIdCardNum.error=该专家信息不存在！
+system.add.success=保存成功！ 
+system.add.failure=保存失败！ 
+system.submit.success=提交成功！
+client.httperrortitle=PMS系统错误：
+client.httperrorcontent=Http连接失败！
+system.form.reset.info=确定要清除所有输入的信息？
+system.delete.expertAtt.info=你确定要删除该条信息吗？
+system.expInfo.validate.error=部分信息效验失败！
+system.expertPhoto.error.info=图片格式不对！[jpeg,jpg,gif,bmp,png,tif,tiff,pcx,tga,exif,fpx,svg,psd,cdr,pcd,dxf,ufo,eps,ai,raw]
+system.expInfo.validate.notIsBlank=不能包含空格!
+system.expInfo.validate.isChinese=只能输入中文!
+system.exp.select.sendEmail.success=邮件发送成功！
+system.exp.add.success.first=提交成功，系统提示“编号为<
+system.exp.add.success.second=>的专家<
+system.exp.add.success.third=>准入申请提交成功！”
+system.exp.sel.insertTmp.error=数据库操作异常
+system.exp.add.source.required=请选择
+system.exp.uploadFile.success=文件上传成功！
+system.exp.uploadAttachment.overMount=已到达附件个数上限!
+system.exp.uploadAttachment.expNotExist=该专家不存在!
+system.exp.addAttachment.title=添加附件
+system.exp.delAttachment.error=附件删除失败！
+system.exp.uploadAttachment.noFile=请选择一个文件！
+system.exp.uploadAttachment.failure=上传文件失败:
+system.exp.uploadAttachment.fileDes=无
+
+db.expAtt.expId=专家编号
+db.column.id=编号
+db.province.name=省份
+db.province.val=介绍
+query.statistisc.avg=平均值
+query.statistisc.count=共计
+query.statistisc.min=最小
+query.statistisc.max=最大
+query.statistisc.sum=总和
+query.ui.display=显示
+query.ui.and=且
+query.ui.or=或
+query.ui.search=搜索
+query.ui.addCondition=添加条件
+query.ui.delCondition=删除条件
+query.ui.print=打印
+query.ui.export=导出
+query.ui.detail=详情
+query.ui.operate=操作
+query.ui.update=修改
+query.ui.delete=删除
+query.ui.prompt=提示
+query.ui.success=成功
+query.ui.failure=失败
+query.ui.confirm.delete=确定要删除吗？
+query.ui.add=添加
+query.ui.ok=确定
+query.ui.tempsave=暂存
+query.ui.cancel=取消
+query.ui.reset=重置
+form.ui.ok=确定
+form.ui.tempsave=暂存
+form.ui.cancel=取消
+client.datatable.process=处理中...
+client.datatable.lengthmenu=显示_MENU_条记录
+client.datatable.zerorecords=当前没有记录
+client.datatable.emptytable=当前表无记录
+client.datatable.info=正显示_START_到_END_条记录 共计:_TOTAL_
+client.datatable.infoempty=当前无记录
+client.datatable.gopage=GO
+client.paginate.first=首页
+client.paginate.previous=上一页
+client.paginate.next=下一页
+client.paginate.last=末页
+client.msg.required=不能为空
+client.msg.mustbnum=必须为数字类型
+query.provinceQuery.header=省份查询
+query.search.searchtitle=搜索条件
+query.search.conditiontitle=显示控制
+
+#country
+country.cn=中国
+country.am=美国
+country.ru=俄罗斯
+country.en=英国
+country.ge=德国
+country.fr=法国
+country.jp=日本
+country.ca=加拿大
+country.others=其他国家
+#回避字典
+query.expAvoidUnit.header = 回避单位查询列表
+query.expAvoidUnit.id = 回避单位编号
+query.expAvoidUnit.code = 回避单位编码
+query.expAvoidUnit.name = 回避单位名称
+#最大抽取次数
+query.maxTimes.header = 最大抽取次数
+query.maxTimes.id = 最大抽取次数ID
+query.maxTimes.code = 最大抽取次数Code
+query.maxTimes.name = 最大抽取次数值
+#地区代码字典
+query.expRegionQuery.header=地区代码字典表
+db.region.id=ID号
+db.region.code=编码
+db.region.name=名称
+db.region.pcode=父CODE
+#职称代码字典
+query.expBusinessQuery.header=职称字典表
+db.expBusiness.id=ID号
+db.expBusiness.code=编码
+db.expBusiness.name=名称
+db.expBusiness.pcode=父CODE
+#地区公司代码字典
+query.expCompanyQuery.header=地区公司字典表
+db.expCompany.id=ID号
+db.expCompany.code=地区公司代码
+db.expCompany.name=地区公司名称
+db.expCompany.pcode=父CODE
+
+db.regionCompany.fullName=地区公司全称
+
+#上传专家附件(UTF-8编码格式)
+query.expAttQuery.header=专家上传附件信息
+db.expAtt.fileName=文件名称
+db.expAtt.fileDesc=文件描述
+db.expAtt.isPhoto=是否照片
+db.expAtt.id=ID
+db.expAtt.attId=附件ID	
+#职务代码字典
+query.expBaseDuty.header=职务字典表
+db.commonBase.id=ID号
+db.commonBase.code=编码
+db.commonBase.name=名称
+
+#专家教育
+
+query.TdExpEducation.header=教育信息
+query.TdExpEducation.id=教育ID
+query.TdExpEducation.expID=专家ID
+query.TdExpEducation.graduateschool = 毕业学校
+query.TdExpEducation.major = 专业
+query.TdExpEducation.edulevel = 学历
+query.TdExpEducation.graduatetime = 毕业时间
+
+#培训情况
+query.TdExpTrainning.header=培训情况
+query.TdExpTrainning.id=培训ID
+query.TdExpTrainning.expID=专家ID
+query.TdExpTrainning.traincontent=培训内容
+query.TdExpTrainning.traintime=培训时间
+query.TdExpTrainning.trainorg=发奖机构
+#获奖情况
+query.TdExpPrize.header=获奖（著作论文）情况
+query.TdExpPrize.id=获奖（著作论文）ID
+query.TdExpPrize.expID=专家ID
+query.TdExpPrize.prizename=奖项（著作论文）名称
+query.TdExpPrize.prizetime=获奖时间
+query.TdExpPrize.publishtime=发布时间
+query.TdExpPrize.prizeorg=获奖机构
+#职业资格情况
+query.TdExpWorkPractice.header=职业资格情况
+query.TdExpWorkPractice.id=职业资格情况ID
+query.TdExpWorkPractice.expID=专家ID
+query.TdExpWorkPractice.postname=职业资格名称
+query.TdExpWorkPractice.certificatenum=注册职业证书编号
+query.TdExpWorkPractice.holdposttime=获得资格时间
+query.TdExpWorkPractice.registeredunit=注册单位
+#回避专家
+query.expAvoidQuery.header=回避专家
+db.expertInfo.id=专家ID
+db.expertInfo.sort=专家类别
+db.expertInfo.name=专家姓名
+db.expertInfo.code=专家编号
+db.expertInfo.dutyName1=职称
+db.expertInfo.duty=职务
+db.expertInfo.expertLevel=专家管理分级
+db.expertInfo.workUnit=工作单位
+db.expertInfo.location1=常住地
+db.expertInfo.categoryCode11=评审专业
+db.expertInfo.mobile=手机号码
+db.expertInfo.phone=固定号码
+query.expertDirectTechnicalQuery.header=技术类专家
+query.expertDirectBusinessQuery.header=商务类专家
+db.expertInfo.recommendOrgId=推荐单位
+db.expertInfo.proCategory=抽取专业
+db.expertInfo.expertLevelShort=管理分级
+
+#导入专家信息记录
+query.importFileQuery.header=导入专家信息记录
+db.importFile.id=导入信息记录表ID
+db.importFile.importTime=导入时间
+db.importFile.failureCount=失败条数
+db.importFile.successCount=成功条数
+db.importFile.remark=\u5907\u6CE8
+db.importFile.failureRecord=错误描述
+db.importFile.fileName=文件名称
+db.importFile.operatorId=操作用户
+db.importFile.deleted=是否删除
+db.importFile.fileTypeError=上传文件失败:文件类型不正确
+db.importFile.overSize=上传文件失败:文件超过规定大小
+db.importFile.writeError=上传文件失败:上传文件到服务器时出错
+#导入专家信息详细记录
+query.importFileDetailQuery.header=导入专家信息详细记录
+db.importFileDetail.id=ID
+db.importFileDetail.failureRecord=错误描述
+
+#专辑自助管理
+query.expertSelfManager.expInfoList=专家信息列表
+query.expertSelfManager.userIsNotExp=您不是专家，无法获取相关信息!
+
+#专家日常管理
+query.ExpertInfomannager.header=专家信息查询
+query.ExpertInfomannager.expId=专家ID
+query.ExpertInfomannager.code=专家编号
+query.ExpertInfomannager.name=专家姓名
+query.ExpertInfomannager.workUnit=工作单位
+query.ExpertInfomannager.state=专家状态
+query.ExpertInfomannager.recommendOrgId=推荐单位
+query.ExpertInfomannager.idCardNum=身份证号码
+query.ExpertInfomannager.createDate=创建日期
+query.ExpertInfomannager.expert.info.state=设置专家状态
+query.ExpertInfomannager.outerUnit=外部单位
+query.expertInfoManage.look=查看
+query.expertInfoManage.modify=编辑
+query.expertInfoManage.updateState=修改状态
+query.expertInfoManage.validateTime=开始时间应小于截止时间
+
+query.ExpertModify.beforeInfo=变更前
+query.ExpertModify.afterInfo=变更后
+query.ExpertModify.modifyDate=变更时间
+query.ExpertModify.modifyUser=变更人
+query.ExpertModify.modifyOrg=变更人工作单位
+
+#数据字典信息
+expSex.male=男
+expSex.female=女
+politics.dang=党员
+politics.tuan=团员
+politics.minzhu=民主党派
+politics.qita=群众
+health.jiangkang=健康
+health.lianghao=良好
+health.qita=其他
+edulevel.boshi=博士研究生
+edulevel.shuoshi=硕士研究生
+edulevel.benke=大学本科
+edulevel.zhuanke=大学专科
+edulevel.qita=其他
+expduty.juzhang=局长
+expduty.fujuzhang=副局长
+expduty.jufuzongshi=局副总师
+expduty.chuzhang=处长
+expduty.fuchuzhang=副处长
+expduty.kezhang=高级主管(科长)
+expduty.fukezhang=高级主管(副科长)
+expduty.jishuyuan=主办(技术员)
+expduty.zhulizhuban=助理主办
+expduty.qita=其他
+workstate.zaizhi=在职
+workstate.tuixiu=退休
+workstate.lizhi=离职
+expsort.jishu=技术
+expsort.shangwu=商务
+procurementtype.wuzi=物资类
+procurementtype.gongcheng=工程类
+procurementtype.fuwu=服务类
+procurementtype.centerPurchase=集中采购
+expertlevel.zongbu=总部
+expertlevel.suoshuqiye=所属企业
+expertlevel.qita=其他
+
+#专家信息状态
+expinfostate.zancun=新建
+expinfostate.zhengchang=正常
+expinfostate.zanting=已暂停
+expinfostate.tuichu=已退出
+expinfostate.shanchu=已删除
+expinfostate.shenpitongguo=审批通过
+expinfostate.tuihui=退回
+expinfostate.quit=退出
+expinfostate.daishenpi=待审批
+expinfostate.changeApproval=变更待审批
+system.exp.delExpInfo.info=确定要删除该条信息吗？
+system.exp.delExpInfo.success=删除成功！
+system.exp.delExpInfo.failure=删除失败！
+system.exp.delExpInfo.failure.reason=该专家信息处于待审批状态无法删除！
+
+expsource.neibu=内部
+expsource.waibu=外部
+expSelProjectState.xinjian=新建
+expSelProjectState.chouquzhong=抽取中
+expSelProjectState.shanchu=已删除
+expSelProjectState.chongchou=重抽申请
+expSelProjectState.shenpizhong=结果确认申请
+expSelProjectState.shenpitongguo=结果已确认
+expSelProjectState.zuofei=已作废
+expSelProjectState.zuofeishenqing=作废申请
+expSelProjectState.chongchoutuihui=重抽退回
+expSelMethod.suiji=随机抽取
+expSelMethod.zhijie=直接选取
+expMethod.zhaobiaocaigou=招标采购
+expMethod.qita=其他
+
+#专家附件管理
+query.expAttManageQuery.header=专家附件管理
+db.expAttManage.fileName=文件名称
+db.expAttManage.fileDesc=文件描述
+db.expAttManage.isPhoto=是否照片
+db.expAttManage.id=ID
+db.expAttManage.attId=附件ID	
+
+#专家抽取
+db.extModifyQuery.header=专家抽取
+db.expertselProject.projectCode=抽取项目编码
+db.expertselProject.procurementType=项目类别
+db.expertselProject.method=采购方式
+db.expertselProject.projectName=抽取项目名称
+db.expertselProject.selMethod=抽取方式
+db.expertselProject.bidPlanCode=\u62DB\u6807\u9879\u76EE\u7F16\u53F7
+db.expertselProject.state=项目状态
+db.expertselProject.proID=抽取专家ID
+db.expertselProject.bidExamineType=评审类型
+db.expertselProject.starTime=评审开始时间
+db.expertselProject.endTime=\uFFFD\uFFFD\uFFFD\u5BA1\u7ED3\u675F\u65F6\u95F4
+db.expertselProject.location=常住地
+db.expertselProject.maxTimes=最大抽取次数
+db.expertselProject.currentTimes=当前最大抽取次数
+db.expertselProject.resultworkflowID=结果审批工作流Id
+db.expertselProject.resultFlag=结果审批结果
+db.expertselProject.discardworkflowID=废弃审批工作流ID
+db.expertselProject.discardFlag=废弃审批结果
+db.expertselProject.bidScopeId=标段Id
+db.expertselProject.createDate=创建时间
+db.expertselProject.createUserID=创建人
+db.expertselProject.dropSelExcuse=申请作废理由
+db.expertselProject.bidCodeQuery=查询招标方案
+system.currentTimesIsOverMaxTimes.info=当前抽取次数已经达到最大抽取次数！
+system.locationsIsOverFive.info=选择的常住地最多为5个！
+system.selResultCountIsTrue.info=抽取结果数量已经达到上限！
+
+#专家抽取结果
+db.expertselResultProject.id=ID
+db.expertselResultProject.state=专家状态
+db.expertselResultProject.expId=专家ID
+#抽取项目校验.
+system.headCountNumTotalError.info = 您所设置的总部级专家总数量小于评标委员会总人数的1/2,请进行调整后重新提交!<br/>
+system.totalCountNumTechError.info = 技术类专家总数量不够,请进行调整后重新提交!<br/>
+system.totalCountNumBusinessError.info = 商务类专家总数量不够,请进行调整后重新提交!<br/>
+system.headcountNumTechError.info = 技术类总部专家数量不满足条件!</br>
+system.headcountNumBusinessError.info = 商务类总部专家数量不满足条件!</br>
+system.compcountNumTechError.info = 技术类地区专家数量不满足条件!</br>
+system.compcountNumBusinessError.info = 商务类地区专家数量不满足条件!</br>
+system.randomSelError.info = 抽取专家人数不足,请调整后重新抽取!</br>
+system.totalCountNumError.info = 技术类和商务类专家总人数不足，请调整后重新抽取</br>
+#变更抽取显示信息
+system.exp.changeSelect.technologyExp=技术类专家
+system.exp.changeSelect.businessExp=商务类专家
+#专家抽取结果专家状态
+system.exp.select.state.new=新建
+system.exp.select.state.choose=选用
+system.exp.select.state.giveUp=弃用
+system.exp.select.state.avoid=回避
+#抽取项目状态
+system.select.project.state.new=新建
+system.select.project.state.selecting=抽取中
+system.select.project.state.del=逻辑删除
+system.select.project.state.reselect=重抽申请
+system.select.project.state.resultConfirm=结果确认申请
+system.select.project.state.resultConfirmAndPass=结果确认审批通过
+system.select.project.state.depose=作废
+system.select.project.state.deposeApply=作废申请
+system.select.project.QYExpert.reason=弃用原因：
+
+#评审专业校验信息
+system.exp.Category=评审专业
+system.exp.Category.and=与
+system.exp.Category.in=包含
+system.exp.Category.same=相同
+#树形数据div标题
+system.exp.tree.regionCompany=地区单位树型结构
+system.exp.tree.region=地区树型结构
+system.exp.tree.Category=评审专业树型结构
+#version过期
+system.exp.version.overdue.error=当前信息已经过期无法提交，请刷新后重试！
+#设置导航链接信息
+system.exp.href.expdaymanage=专家日常管理
+system.exp.href.expinfomanage=专家信息管理
+system.exp.href.modifyexpinfo=专家信息
+system.exp.href.expcomeinmanage=专家准入管理
+system.exp.href.comeininfomanage=准入信息管理
+system.exp.href.expwritten=专家登记
+system.exp.href.lookexpinfo=专家详细信息
+system.exp.href.expselectmanage=专家抽取管理
+system.exp.href.changeselect=变更抽取
+system.exp.href.goonselecting=抽取项目基本信息
+system.exp.href.searchfunction=查询功能
+system.exp.href.exptasksearch=专家任务查询
+
+#专家信息导入Excel表头
+expInfoImport.excelHeader.EXP_IMPORT_SER_NUM = 序号
+expInfoImport.excelHeader.EXP_IMPORT_EXP_NAME = 专家姓名*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_SEX = 专家性别*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_NATION = 民族
+expInfoImport.excelHeader.EXP_IMPORT_EXP_POLITICS = 政治面貌
+expInfoImport.excelHeader.EXP_IMPORT_EXP_IDCARDNUM = 身份证*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_HEALTH = 身体状况
+expInfoImport.excelHeader.EXP_IMPORT_EXP_BIRTHDAY = 出生日期
+expInfoImport.excelHeader.EXP_IMPORT_EXP_ADDRESS = 通讯地址
+expInfoImport.excelHeader.EXP_IMPORT_EXP_POSTCODE = 邮编
+expInfoImport.excelHeader.EXP_IMPORT_EXP_MOBILE = 手机号码*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_PHONE = 固定电话*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_FAX = 传真
+expInfoImport.excelHeader.EXP_IMPORT_EXP_EMAIL = 电子邮箱
+expInfoImport.excelHeader.EXP_IMPORT_EXP_SPECIALITY = 专业特长*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_DUTY = 职务*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_DUTYNAME = 职称*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_WORKSTATE = 任职状态*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_JOINWORK = 参加工作时间
+expInfoImport.excelHeader.EXP_IMPORT_EXP_WORKUNIT = 工作单位*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_UNITCODE= 工作单位组织机构代码*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_SOURCE = 是否外部专家*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_PROCUREMENTTYPE = 项目类别*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_SORT = 专家类别
+expInfoImport.excelHeader.EXP_IMPORT_EXP_LEVEL = 专家管理分级*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_RECOMMENDORG = 推荐单位*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_RECOMMENDORGCODE = 推荐单位组织机构代码*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_LOCATION = 常住地*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_LOCATION2 = 常住地2
+expInfoImport.excelHeader.EXP_IMPORT_EXP_LOCATION3 = 常住地3
+expInfoImport.excelHeader.EXP_IMPORT_EXP_MAINCATEGORYCODE = 主评审专业*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_MAINCATEGORYBEGINYEAR = 主评专业从事起始年*
+expInfoImport.excelHeader.EXP_IMPORT_EXP_ASSISTCATEGORYCODE=辅评审专业
+expInfoImport.excelHeader.EXP_IMPORT_EXP_ASSISTCATEGORYBEGINYEAR=辅评审专业从事起始年
+
+expInfoImport.error.readXML = 读取验证规则文件(xml)时出错:
+expInfoImport.error.readFile = 读取导入文件时出错:
+expInfoImport.error.validate = 执行校验和保存数据时出错:
+expInfoImport.error.excelHeadError = 执行校验和保存数据时出错:
+
+expInfoImport.message.row = 行,
+expInfoImport.message.column = 列:
+expInfoImport.message.formatError = 格式错误;
+expInfoImport.message.isExist = 数据已存在;
+expInfoImport.message.foreignKeyError = 的外键值不存在;
+expInfoImport.message.notNull = 不能为空;
+#评审专业校验
+expInfoImport.message.assistCategoryNotExist = 与辅评专业相关的列不存在;
+expInfoImport.message.categoryError = 与评审专业相关的项目类别列有错误;
+expInfoImport.message.categoryMax = 辅评评审专业不能多于
+expInfoImport.message.categoryUnit = 个;
+expInfoImport.message.categoryCodeKey = 评审专业列,评审专业编码: 
+expInfoImport.message.categoryCode = 评审专业列:评审专业代码
+expInfoImport.message.NotFillProcurement = 与项目类别不对应;
+#worktime校验
+expInfoImport.message.beginYearRelated = 与从事起始年列相关的辅评审专业列有错误;
+expInfoImport.message.beginYearCount = 从事起始年的数目和辅评评审专业不一致;
+expInfoImport.message.beginYear = 从事起始年列
+expInfoImport.message.beginYearFomatError = ,不是一个合理的年份
+#是否外部专家校验
+expInfoImport.message.sourceNotExist = 与工作单位相关的是否外部专家列不存在;
+expInfoImport.message.sourceError = 与工作单位相关的是否外部专家列不存在;
+expInfoImport.message.workunitCode = 工作单位列:编码
+#职称校验
+expInfoImport.message.businessMax = 职称列:职称个数不能超过
+expInfoImport.message.businessUnit = 个;
+expInfoImport.message.businessCode = 职称列:编码
+#姓名和身份证联合校验
+expInfoImport.message.idCardNumAndNameUpdate =更新至身份证与姓名都相同的旧版本数据
+expInfoImport.message.idCardNumAndNameUpdateError =发现与旧版本数据存在相同的身份证但姓名却不同，请验证数据
+expInfoImport.message.idCardNumExistsError =身份证已存在
+
+exp.resel.notExist = 该重抽申请记录不存在
+exp.selProject.notExist = 该抽取项目记录不存在
+
+exp.resel.getReselError = 获得重抽申请记录错误
+
+#专家准入审批
+query.expAccessPending.header = 专家准入审批
+system.exp.href.approveManager = 审批管理
+system.exp.href.approve.accessPendingShow = 专家准入查看
+
+#专家信息导入状态
+expImport.status=数据状态
+expImport.status.temp=未更新
+expImport.status.formal=已更新
+
+#家状态变更查询
+expStateSearch.modefyOperate = 修改操作
+expStateSearch.modefyReason = 修改原因
+expStateSearch.lastModifyUser = 修改人
+expStateSearch.lastModifyDate = 修改时间
+
+#专家评审专业
+query.expCategory.code = 编码
+query.expCategory.name = 名称
+
+#专家证书打印状态
+query.ExpertInfomannager.printMark = 打印状态
+exp.printMark.unprinted = 未打印
+exp.printMark.printed = 已打印
+
+#专家统计
+
+exp.stat.category = 专业类别
+exp.stat.sex = 专家性别
+exp.stat.mobile = 手机号码
+exp.stat.idcard = 身份证
+exp.stat.selcounts = 抽取次数
+exp.stat.attend.look = 查看出席明细
+exp.stat.selprojectcode = 抽取项目编号
+exp.stat.selprojectname = 抽取项目名称
+exp.stat.selcategory = 抽取专业
+exp.stat.selDate = 抽取时间
+exp.stat.age = 年龄
+exp.stat.projectTenderName = 抽取项目招标人
+
+#专家评分考核
+query.expProjectGradeQuery.header=专家项目考核设置
+query.expProjectGradeQuery.projectCode=项目编码
+query.expProjectGradeQuery.projectName=项目名称
+query.expProjectGradeQuery.createUserID=创建人
+query.expProjectGradeQuery.createDate=创建时间
+query.expProjectGradeQuery.projectStatus=项目状态
+
+#专家评分考核
+query.expProjectQuery.header=专家项目考核统计
+query.expProjectQuery.projectCode=项目编码
+query.expProjectQuery.projectName=项目名称
+query.expProjectQuery.createUserID=创建人
+query.expProjectQuery.createDate=创建时间
+query.expProjectQuery.projectStatus=项目状态
+query.expProjectQuery.gradeStatus=状态
+
+#专家评分考核  打分人看到的项目列表
+query.expProjectOperatorQuery.header=评价人
+query.expProjectOperatorQuery.projectCode=项目编码
+query.expProjectOperatorQuery.expGradeTemplateId=考核模板ID
+query.expProjectOperatorQuery.projectName=项目名称
+query.expProjectOperatorQuery.createUserID=创建人
+query.expProjectOperatorQuery.operatorName=打分人
+query.expProjectOperatorQuery.operatorId=打分人id
+query.expProjectOperatorQuery.createDate=创建时间
+query.expProjectOperatorQuery.projectStatus=项目状态
+query.expProjectOperatorQuery.status=评分状态
+query.expProjectOperatorQuery.operatorOrgName=评价人单位
+query.expProjectOperatorQuery.agent=是否允许代填
+
+#履职评价 评价人状态
+exp.expOperatorStatus.not_evaluate=未评价
+exp.expOperatorStatus.evaluate_approval=评价待审
+exp.expOperatorStatus.evaluate_back=评价退回
+exp.expOperatorStatus.have_evaluation=已评价
+
+#专家评分考核 招标项对应专家  --项目相关的信息
+query.expProjectExpinfoQuery.header=专家清单
+query.expProjectExpinfoQuery.ID=ID
+query.expProjectExpinfoQuery.expProjectId=招标扩展ID
+query.expProjectExpinfoQuery.projectId=招标ID
+query.expProjectExpinfoQuery.projectCode=项目编码
+query.expProjectExpinfoQuery.projectName=项目名称
+query.expProjectExpinfoQuery.expinfocode=专家编码
+query.expProjectExpinfoQuery.expinfoname=专家姓名
+query.expProjectExpinfoQuery.accountid=登录账号
+query.expProjectExpinfoQuery.content=备注意见
+query.expProjectExpinfoQuery.state=专家状态
+query.expProjectExpinfoQuery.count=抽取次数
+query.expProjectExpinfoQuery.gradeCount=实际参评次数
+query.expProjectExpinfoQuery.doubtCount=存疑次数
+query.expProjectExpinfoQuery.competentCount=称职次数
+query.expProjectExpinfoQuery.greatCount=优秀次数
+query.expProjectExpinfoQuery.content=说明
+query.expProjectExpinfoQuery.score=评价结果
+query.expProjectExpinfoQuery.suggest=处理建议
+query.expProjectExpinfoQuery.suggestState=处理状态
+
+#履职评价 评价结果
+exp.expGradeScore.GREAT=优秀
+exp.expGradeScore.COMPETENT=称职
+exp.expGradeScore.DOUBT=存疑
+
+#履职评价结果处理建议
+exp.expGradeSuggest.NONE=无
+exp.expGradeSuggest.STOP=暂停
+exp.expGradeSuggest.OUT=退出
+exp.expGradeSuggest.RECOVER=恢复
+exp.expGradeSuggest.UP=升级
+exp.expGradeSuggest.DOWN=降级
+
+#履职评价结果处理状态
+exp.expGradeSuggestState.NOT_DO=未处理
+exp.expGradeSuggestState.DOING=处理中
+exp.expGradeSuggestState.DONE=已处理
+
+#专家评分考核  打分人打分  --项目相关的信息
+query.expProjectOperatorExpInfoQuery.header=考评项目专家列表
+query.expProjectOperatorExpInfoQuery.ID=ID
+query.expProjectOperatorExpInfoQuery.expProjectId=招标扩展ID
+query.expProjectOperatorExpInfoQuery.projectId=招标ID
+query.expProjectOperatorExpInfoQuery.projectOperatorId=招标操作人ID
+query.expProjectOperatorExpInfoQuery.projectExpInfoId=招标专家ID
+query.expProjectOperatorExpInfoQuery.projectCode=项目编码
+query.expProjectOperatorExpInfoQuery.projectName=项目名称
+query.expProjectOperatorExpInfoQuery.expinfocode=专家编码
+query.expProjectOperatorExpInfoQuery.expinfoname=专家姓名
+query.expProjectOperatorExpInfoQuery.accountid=登录账号
+query.expProjectOperatorExpInfoQuery.content=备注意见
+query.expProjectOperatorExpInfoQuery.score=综合得分
+
+query.expProjectGradeContentListQuery.header=招标评审专家履职评价
+query.expProjectGradeContentListQuery.id=id
+query.expProjectGradeContentListQuery.teamid=teamid
+query.expProjectGradeContentListQuery.teamName=评价项目
+query.expProjectGradeContentListQuery.contentName=评价内容
+query.expProjectGradeContentListQuery.score=得分
+
+query.expGradeTempContentListQuery.header=模板信息
+query.expGradeTempContentListQuery.expGradeTemplateID=模板id
+query.expGradeTempContentListQuery.expGradeTemplateName=模板名称
+query.expGradeTempContentListQuery.team.name=项目名称
+query.expGradeTempContentListQuery.team1=子项名称
+query.expGradeTempContentListQuery.expGradecontentContentname=评价内容名称
+query.expGradeTempContentListQuery.trueIsGood=符合此项是否得分
+
+#专家考核汇总状态
+exp.expProject.gradeStatus.NOT_EVALUATE=未评价
+exp.expProject.gradeStatus.NEW=新建
+exp.expProject.gradeStatus.SEND=已发送
+exp.expProject.gradeStatus.EVALUATE_APPROVAL=评价待审
+exp.expProject.gradeStatus.HAVE_EVALUATION=已评价
+
+#专家考核评分状态
+exp.expProjectOperator.status.DEFAULT=未提交
+exp.expProjectOperator.status.SUBMITTED=已提交

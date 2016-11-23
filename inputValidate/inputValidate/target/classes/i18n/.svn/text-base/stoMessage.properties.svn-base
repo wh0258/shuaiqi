@@ -1,0 +1,218 @@
+#需求计划出库凭证信息
+query.outStorage.header=订单出库管理
+db.outStorage.id=业务流水号
+db.outStorage.client=客户端
+db.outStorage.clientName=客户端描述
+db.outStorage.meterialVoucherCode=物料凭证(出库单号)
+db.outStorage.postingDate=过账日期
+db.outStorage.voucherDate=凭证日期
+db.outStorage.createDate=创建日期
+db.outStorage.createUser=创建人代码
+db.outStorage.createUserName=创建人名称
+db.outStorage.meterialOrder=物料单
+db.outStorage.voucherYear=凭证年度(会计年度)
+db.outStorage.voucherType=凭证类型
+db.outStorage.ladingOrder=提货单
+db.outStorage.headerText=抬头文本
+db.outStorage.operatorCode=事物码
+db.outStorage.tradeType=交易/事件类型
+db.outStorage.tradeDesc=交易/事件类型描述
+db.outStorage.voucherDesc=凭证类型描述
+db.outStorage.supCode=供应商
+db.outStorage.supName=供应商名称
+db.outStorage.meterialItem=物料凭证行项目号码(出库凭证行项目)
+db.outStorage.meterialCode=物料编码
+db.outStorage.materialDesc=物料描述
+db.outStorage.commodityCode=物料分类
+db.outStorage.amount=出库数量
+db.outStorage.unit=计量单位
+db.outStorage.unitName=计量单位名称
+db.outStorage.depotAddress=库存地点
+db.outStorage.depotAddressName=库存地点名称
+db.outStorage.batchNumber=批次号
+db.outStorage.depotType=库存类型
+db.outStorage.depotTypeDesc=库存类型描述
+db.outStorage.currency=币别
+db.outStorage.standardMoney=本位币金额
+db.outStorage.currencyCode=币别代码
+db.outStorage.currencyName=币别名称
+db.outStorage.orgCode=公司代码
+db.outStorage.orgName=公司名称
+db.outStorage.factoryCode=工厂代码
+db.outStorage.factoryName=工厂名称
+db.outStorage.obligateNumber=预留号码（需求计划号）
+db.outStorage.obligateItem=预留行项目（需求计划号行项目号）
+db.outStorage.costCenter=成本中心
+db.outStorage.wbs=WBS号
+db.outStorage.maintainOrder=维修订单号
+db.outStorage.maintainItem=维修订单行项目号
+db.outStorage.productOrder=生产订单
+db.outStorage.productItem=生产订单行项目号
+db.outStorage.requirementAmount=需求数量
+db.outStorage.moveType=移动类型
+db.outStorage.moveTypeDesc=移动类型描述
+db.outStorage.debitAndCreditFlag=借贷标示
+db.outStorage.debitAndCreditDesc=借贷标示描述
+db.outStorage.oriMeterialVoucher=原始物料凭证
+db.outStorage.oriMeterialItem=原始物料凭证行项目
+db.outStorage.meterialVoucherYear=原始物料凭证年度
+db.outStorage.meterialVoucherOff=物料凭证号（冲销）
+db.outStorage.meterialItemOff=物料凭证行项目（冲销）
+db.outStorage.saleOrder=销售订单
+db.outStorage.saleOrderItem=销售订单行项目
+db.outStorage.netOrder=网络订单号
+db.outStorage.netOrderItem=网络订单行项目号
+
+
+#订单入库管理
+query.stoInstorageQuery.header=订单入库查询
+db.stoInstorageQuery.id=业务流水号
+db.stoInstorageQuery.client=客户端
+db.stoInstorageQuery.clientName=客户端描述
+db.stoInstorageQuery.materialVoucherCode=物料凭证号
+db.stoInstorageQuery.postingDate=过账日期
+db.stoInstorageQuery.voucherDate=凭证日期
+db.stoInstorageQuery.voucherYear= 凭证年度(会计年度)
+db.stoInstorageQuery.createDate=创建日期
+db.stoInstorageQuery.createUser=创建人代码
+db.stoInstorageQuery.createUserName=创建人名称
+db.stoInstorageQuery.deliveryOrder=交货单
+db.stoInstorageQuery.ladingOrder=提货单
+db.stoInstorageQuery.headerText=抬头文本
+db.stoInstorageQuery.operatorCode=事物码
+db.stoInstorageQuery.tradeType=交易/事件类型
+db.stoInstorageQuery.tradeDesc=交易/事件类型描述
+db.stoInstorageQuery.voucherType=凭证类型
+db.stoInstorageQuery.voucherDesc=凭证类型描述
+db.stoInstorageQuery.supCode=供应商编码
+db.stoInstorageQuery.supName=供应商名称
+db.stoInstorageQuery.materialItem=物料凭证行项目(入库凭证行项目)
+db.stoInstorageQuery.materialCode=物料编码
+db.stoInstorageQuery.amount=数量
+db.stoInstorageQuery.materialDesc=物料描述
+db.stoInstorageQuery.Unit=计量单位
+db.stoInstorageQuery.unitName=计量单位名称
+db.stoInstorageQuery.depot=库存地点
+db.stoInstorageQuery.depotName=库存地点名称
+db.stoInstorageQuery.batchNum=批次号
+db.stoInstorageQuery.depotType=库存类型
+db.stoInstorageQuery.depotTypeDesc=库存类型描述
+db.stoInstorageQuery.currency=币别
+db.stoInstorageQuery.standardMoney=本位币金额
+db.stoInstorageQuery.currencyCode=币别代码
+db.stoInstorageQuery.currencyName=币别名称
+db.stoInstorageQuery.orgCode=公司代码
+db.stoInstorageQuery.orgName=公司名称
+db.stoInstorageQuery.factoryCode=工厂代码
+db.stoInstorageQuery.facotryName=工厂名称
+db.stoInstorageQuery.orderCode=采购订单号
+db.stoInstorageQuery.orderCodeAmount=采购订单数量
+db.stoInstorageQuery.orderCodeItem=采购订单行项目
+db.stoInstorageQuery.moveType=移动类型
+db.stoInstorageQuery.moveTypeDesc=移动类型描述
+db.stoInstorageQuery.debitAndCreditFlag=借贷标示
+db.stoInstorageQuery.debitAndCreditDesc=借贷标示描述
+db.stoInstorageQuery.oriMaterialVoucher=原始物料凭证
+db.stoInstorageQuery.oriMaterialItem=原始物料凭证行项目
+db.stoInstorageQuery.materialVoucherYear=物料凭证年度
+db.stoInstorageQuery.saleOrder=销售订单
+db.stoInstorageQuery.saleOrderItem=销售订单行项目
+db.stoInstorageQuery.costCenter=成本中心
+db.stoInstorageQuery.costCenterDesc=成本中心描述
+db.stoInstorageQuery.assets=资产
+db.stoInstorageQuery.WBS=WBS元素
+db.stoInstorageQuery.netOrder=网络订单
+#####如果添加国际化,请表明注释###
+
+#库存信息
+query.stoStorageManageQuery.header=库存信息管理
+db.stoStorageManageQuery.id=业务流水号
+db.stoStorage.client=客户端
+db.stoStorage.clientDesc=客户端名称
+db.stoStorage.factoryCode=工厂代码
+db.stoStorage.factoryName=工厂名称
+db.stoStorage.depotAddress=库存地代码
+db.stoStorage.depotAddressName=库存地点
+db.stoStorage.orgCode=公司代码
+db.stoStorage.orgName=公司名称
+db.stoStorage.meterailCode=物料编码
+db.stoStorage.meterailDesc=物料名称
+db.stoStorage.meterailPartCode=物料组
+db.stoStorage.meterailPartName=物料组名称
+db.stoStorage.unitCode=计量单位
+db.stoStorage.unlimitedMeterail=非限制使用库存
+db.stoStorage.unlimitedAmount=非限制使用库存金额
+db.stoStorage.qualityDepot=质检区库存
+db.stoStorage.qualityDepotAmount=质检库存金额
+db.stoStorage.batchNumber=批次号
+db.stoStorage.projectId=项目号
+db.stoStorage.supCode=供应商编码
+db.stoStorage.supName=供应商名称
+db.stoStorage.averagePrice=物料价格（移动平均或标准价）
+db.stoStorage.currencyType=币别
+
+query.outStorageI2.header=出库明细
+
+sto.stostatus.chose = ---请选择---
+
+#物资调剂start  author：linxiuxiang date:2013:01:25
+#物资调剂模块资源文件信息
+query.stoMaterialSwapCheckQuery.header = 物资调剂审核
+db.stoMaterialSwapCheck.listCode = 调剂单编码
+db.stoMaterialSwapCheck.listName = 调剂单名称
+db.stoMaterialSwapCheck.createUnitName = 提报单位
+db.stoMaterialSwapCheck.checkstatus = 调剂状态
+db.stoMaterialSwapCheck.createUserName = 创建人
+db.stoMaterialSwapCheck.createDate = 创建日期
+
+query.stoMaterialSwapSearchQuery.header = 物资调剂查询
+db.stoMaterialSwapSearch.createUnitName = 创建单位
+db.stoItemSwap.edit = 编辑
+db.stoItemSwap.view = 查看
+db.stoItemSwap.delete = 删除
+db.stoItemSwap.revoke = 取消调剂
+db.stoItemSwap.check = 审核
+#物资调剂状态信息
+materialSwapStatus.caogao = 草稿
+materialSwapStatus.reject = 拒绝
+materialSwapStatus.isChecking = 审批中
+materialSwapStatus.checked = 审批通过
+
+#下载文件信息
+sto.upload.isDoing = 正在上传......
+sto.stoManager.submit.warning = 警告
+sto.stoUpload.choiceFile = 请选择一个文件！
+sto.stoUpload.uploadInfoOne=对不起！不支持该类型附件！
+sto.stoUpload.uploadInfoTwo=对不起！您上传的文件过大！
+sto.stoUpload.uploadInfoThree=上传成功！
+sto.stoUpload.downloadFile=下载
+
+##总部配置地区公司储备定额数据
+
+query.cbdingeHeader.header=储备定额查询
+db.cbdingeHeader.id=id
+db.cbdingeHeader.year=年度
+db.cbdingeHeader.orgCode=地区公司编码
+db.cbdingeHeader.orgName=地区公司名称
+db.cbdingeHeader.dingeMaster=储备定额
+db.cbdingeHeader.currency=币种
+db.cbdingeHeader.createuserid=创建人编码
+db.cbdingeHeader.createusername=创建人名称
+db.cbdingeHeader.createDate=创建时间
+db.cbdingeHeader.lastmodifyuserid=修改人编码
+db.cbdingeHeader.lastmodifyusername=修改人名称
+db.cbdingeHeader.lastmodifydate=修改时间
+db.cbdingeHeader.sendFlag=发送标记
+db.cbdingeHeader.boardCode=板块编码
+db.cbdingeHeader.boardName=板块名称
+db.cbdingeHeader.transferDate=传输时间
+db.cbdingeHeader.status=状态
+
+cbdingeheaderstatus.submit=已维护
+cbdingeheaderstatus.sending=发送中
+cbdingeheaderstatus.sent=发送成功
+cbdingeheaderstatus.sendfail=发送失败
+
+query.getPlateQuery.header=组织机构查询
+query.getPlateQuery.code=编码
+query.getPlateQuery.name=名称
